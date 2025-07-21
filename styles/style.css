@@ -3,11 +3,17 @@
 .flex{
     display: flex;
 }
+.grid{
+    display: grid;
+}
 .align-center{
     align-items: center;
 }
 .justify-speace-btween{
     justify-content: space-between;
+}
+.justify-speace-around{
+    justify-content: space-around;
 }
 .font-24{
     font-size: 24px;
@@ -78,6 +84,9 @@
     border-radius: 41px;
     padding: 10px 24px;
 }
+.company{
+    margin-top: 50px;
+}
 
 
 /* responsive small device */
@@ -106,6 +115,15 @@
     .banner-content1{
         width:calc(100% - 20px) ;
         text-align: center;
+    }
+    .company-img{
+        width:80px;
+        margin-bottom: 20px;
+    }
+    .company{
+        max-width: 300px;
+        margin: 0 auto;
+        flex-wrap: wrap;
     }
     
 }
